@@ -1,0 +1,33 @@
+.nav-menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu li{
+    margin: 0 20px;
+    
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: greenyellow;
+}
+.active{
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.mobile-nav{
+    list-style: none;
+}
+
+.mobile-nav li{
+    margin: 15px 0;
+}
+
+.mobile-nav li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: greenyellow;
+}
